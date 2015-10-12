@@ -1,0 +1,2 @@
+# .platformio-boards
+PlatformIO boards
