@@ -1,0 +1,21 @@
+{
+    "attiny85": {
+        "build": {
+            "core": "arduino",
+            "extra_flags": "-DARDUINO_ARCH_AVR",
+            "f_cpu": "8000000L",
+            "mcu": "attiny85",
+            "variant": "tiny8"
+        },
+        "frameworks": ["arduino"],
+        "name": "ATtiny85 8Mhz",
+        "platform": "atmelavr",
+        "upload": {
+            "maximum_ram_size": 512,
+            "maximum_size": 8192,
+            "protocol": "dragon_hvsp"
+        },
+        "url": "http://atmel.com/",
+        "vendor": "AVR"
+    }
+}
